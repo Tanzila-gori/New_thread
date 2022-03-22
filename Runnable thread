@@ -1,0 +1,12 @@
+public class Runnablethread  implements Runnable{
+@override
+System.out.println("thread is ended");
+}
+public static void main(String[] args)
+{
+Runnablethread ex = new Runnablethread();
+Thread t1 = new Thread(ex);
+t1.start();
+System.out.println("Run");
+}
+}
